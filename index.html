@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="quiz-container" id='quiz'>
+      <div class="quiz-header">
+        <h2 id="question">Question</h2>
+        <ul class="answers">
+          <li>
+            <input id="A" type="radio" class="answer" name="answer">
+            <label id="a_text" for="A">Answer</label>
+          </li>
+          <li>
+            <input id="B" type="radio" class="answer" name="answer">
+            <label id="b_text"  for="B">Answer</label>
+          </li>
+          <li>
+            <input id="C" type="radio" class="answer" name="answer">
+            <label  id="c_text" for="C">Answer</label>
+          </li>
+          <li>
+            <input id="D" type="radio" class="answer" name="answer">
+            <label id="d_text" for="D">Answer</label>
+          </li>
+        </ul>
+      </div>
+      <button id="submit">Submit</button>
+    </div>
+  </body>
+</html>
